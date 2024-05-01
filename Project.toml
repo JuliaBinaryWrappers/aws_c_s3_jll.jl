@@ -1,6 +1,6 @@
 name = "aws_c_s3_jll"
 uuid = "bd1f34fb-993f-5903-a121-aaf302eed6d4"
-version = "0.3.17+1"
+version = "0.5.7+0"
 
 [deps]
 aws_c_http_jll = "3254fc65-9028-534d-aa9d-d76d128babc6"
@@ -13,6 +13,8 @@ aws_c_auth_jll = "2b3700d1-4306-52e2-a478-c162f0c514be"
 [compat]
 JLLWrappers = "1.2.0"
 julia = "1.6"
-aws_c_http_jll = "0.7.12"
+aws_c_http_jll = "0.8.1"
 aws_checksums_jll = "0.1.17"
-aws_c_auth_jll = "0.7.3"
+Libdl = "1"
+Artifacts = "1"
+aws_c_auth_jll = "0.7.18"
