@@ -7,12 +7,12 @@ using aws_c_auth_jll
 using aws_c_common_jll
 using s2n_tls_jll
 JLLWrappers.@generate_wrapper_header("aws_c_s3")
-JLLWrappers.@declare_library_product(libaws_c_s3, "@rpath/libaws-c-s3.1.0.dylib")
+JLLWrappers.@declare_library_product(libaws_c_s3, "@rpath/libaws-c-s3.1.1.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(aws_checksums_jll, aws_c_http_jll, aws_c_auth_jll, aws_c_common_jll, s2n_tls_jll)
     JLLWrappers.@init_library_product(
         libaws_c_s3,
-        "lib/libaws-c-s3.1.0.0.dylib",
+        "lib/libaws-c-s3.1.1.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
