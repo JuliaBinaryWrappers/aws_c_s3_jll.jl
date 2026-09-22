@@ -12,7 +12,7 @@ function __init__()
     JLLWrappers.@generate_init_header(aws_checksums_jll, aws_c_http_jll, aws_c_auth_jll, aws_c_common_jll, s2n_tls_jll)
     JLLWrappers.@init_library_product(
         libaws_c_s3,
-        "lib/libaws-c-s3.1.1.2.dylib",
+        "lib/libaws-c-s3.1.1.3.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
